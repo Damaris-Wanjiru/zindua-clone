@@ -1,0 +1,58 @@
+.logo {
+    width: 100x;
+    height: 100px; 
+}
+
+.bar-elements {
+    color: grey;
+    display: flex;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: arial;
+    padding-right: 10px;
+}
+
+.apply {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.initial {
+    display: flex;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+.tech {
+    display: flex;
+}
+
+.beyond {
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.butn {
+    display: flex;
+    border-spacing: 10px;
+}
+
+.ton1 {
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.ton2 {
+    color: red;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
