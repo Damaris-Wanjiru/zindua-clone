@@ -1,15 +1,24 @@
 .logo {
     width: 100x;
-    height: 100px; 
+    height: 100px;
+    padding-top: 10px; 
+}
+.home {
+    background-color: white;
+}
+.right button{
+    color: red;
+    padding: 30px;
+    margin: 15px;
 }
 
-.bar-elements {
+.bar-elements span{
     color: grey;
-    display: flex;
     font-size: 30px;
     font-weight: 100px;
-    font-family: arial;
-    padding-right: 10px;
+    padding: 20px;
+    margin: 15px;
+
 }
 
 .apply {
@@ -28,14 +37,23 @@
 
 }
 
-.tech {
+.tech h1{
+    color: red;
+    font-size: larger;
     display: flex;
 }
-
-.beyond {
-    color: red;
+.tech .woman{
+    display: flex;
+}
+.choice {
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 700px;
+}
+.para {
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 .butn {
@@ -46,13 +64,141 @@
 .ton1 {
     color: white;
     background-color: red;
-    border-radius: 50px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    padding-right: 20px;
+    margin-right: 30px;
 }
 
 .ton2 {
     color: red;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+
+}
+.woman {
+    height: 500px;
+    width: 200px;
+    padding: 50px;
+    display: flex;
+    filter: grayscale()
+    
+    
+}
+.features {
+    display: flex;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    align-items: center;
+    padding-bottom: 30px;
+    
+    
+}
+.right {
+    padding: 30px;
+    margin: 15px;
+}
+.icons {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: space-between;
+    
+}
+
+.top {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 70px;
+}
+
+.iconn {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 32px;
+}
+
+.explore {
+    color: red;
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 2.5px;
+
+}
+
+.school {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.icon-card {
+    color: blue;
+    border-color: blue;
+    font-size: 55px;
+    text-align: inherit;
+    background-color: white;
+}
+
+.data {
+    color: orangered;
+    font-weight: 700px;
+    line-height: 1.5rem;
+    font-style: normal;
+    margin: 1.5rem 0.05rem;
+    padding: 10px;
+}
+
+.fund {
+    font-size: normal;
+    color: black;
+    line-height: 1.6rem;
+    padding: 10px;
+}
+
+.learn {
+    padding: 20px;
+}
+
+.rton {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 17px;
+    box-sizing: inherit;
+    padding: 5px;
+
+}
+
+.cards {
+    border: solid;
+    display: flex;
+
+}
+
+
+.coding-school {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.apply {
+    text-align: center;
+    background-color: white;
+}
+
+.join {
+
 }
 
 
